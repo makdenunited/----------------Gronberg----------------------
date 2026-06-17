@@ -1,0 +1,77 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none !important;
+  color: inherit;
+  cursor: pointer;  
+}
+a,
+a:visited {
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+img {
+  max-width: 100%;  /* Чтобы изображения не выходили за пределы своих контейнеров */  
+  vertical-align: top;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  padding: 0;
+  font-family: "", sans-serif;
+}
+
+/* .....................................................кнопка.......................................................................................... */
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+cite {
+  font-style: normal;
+}
+
+
+/* Здесь задаем размеры контейнеру по макету + отступы. Если макет 1020рх то + по 15рх = 1050рх */
+
+/* Checkpoints для адаптива */
+@media (max-width: 1050px) {
+}
+@media (max-width: 991.98px) {
+}
+@media (max-width: 761.98px) {
+}

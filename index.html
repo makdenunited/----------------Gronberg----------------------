@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:200,300,regular,500,600,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Jacob Grönberg</title>
+  </head>
+  <body>
+    <!-- Обертка враппер.Решает кучу проблем(с горизонт.скроллом, с прижимание футера к подвалу страницы и т.д.) -->
+    <div id="header" class="wrapper">
+      <header class="header">
+        <a class="header__logo" href="#header">Jacob Grönberg</a>
+        <!-- Мобильное меню Burger -->
+        <nav class="header__menu menu">
+          <button class="menu__icon">
+            <span></span>
+            <small></small>
+          </button>
+          <div class="menu__body">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="" class="menu__link"> Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Projects</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Exhibitions</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">About</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Contact</a>
+              </li>
+            </ul>
+            <ul class="social">
+              <li class="social__item">
+                <a href="" class="social__link" target="_blank">Twitter</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link" target="_blank">Instagram</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link" target="_blank">Facebook</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="page">
+        <section class="page__hero hero">
+          <div class="hero__container">
+            <div class="hero__content">
+              <div class="hero__header">
+                <h1 class="hero__title">Jacob <br />Grønberg</h1>
+                <h2 class="hero__sub-title">
+                  <span>Photographer</span> <span>& Visual artist</span>
+                </h2>
+              </div>
+              <div class="hero__author author">
+                <figure class="author__picture">
+                  <img
+                    class="author__image"
+                    src="/img/home/hero.webp"
+                    alt="author"
+                  />
+                  <figcaption class="author__caption">Hi, Im Jacob</figcaption>
+                </figure>
+                <a href="#" class="author__action"
+                  >Work <br />
+                  With Me</a
+                >
+              </div>
+            </div>
+            <div class="hero__media">
+              <div class="hero__body">
+                <img
+                  class="hero__image"
+                  src="/img/home/image main.webp"
+                  alt="main image"
+                />
+                <a href="#services" class="hero__scroll scroll-hero">
+                  <span class="scroll-hero__label">
+                    Scroll Down <br />
+                    & Explore
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="services" class="page__services services">
+          <div class="services__container">
+            <h2 class="services__title">Services</h2>
+            <ol class="services__list">
+              <li class="services__item">
+                <a class="services__name" href="#">Photo Shooting</a>
+                <div class="services__descriptions">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </li>
+              <li class="services__item">
+                <a class="services__name" href="#">Video Editing</a>
+                <div class="services__descriptions">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </li>
+              <li class="services__item">
+                <a class="services__name" href="#">Art Direction</a>
+                <div class="services__descriptions">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section class="page__latest-work latest-work">
+          <div class="latest-work__container">
+            <div class="latest-work__block-header block-header">
+              <div class="block-header__title">Latest <span>Work</span></div>
+              <a href="" class="block-header__link arrow-link"
+                >View All
+                <svg
+                  width="32"
+                  height="15"
+                  viewBox="0 0 32 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M0 7.35352H30" />
+                  <path d="M23.5 0.353516L30.5 7.35352L23.5 14.3535" /></svg></a>
+            </div>
+            <div class="latest-work__items">
+              <div class="latest-work__column">
+                <article class="latest-work__item item-work">
+                  <a href="#" class="item-work__link">
+                  <h4 class="item-work__title">Dancing in <br> Black & <span>White</span></h4>
+                                  <figure class="item-work__media">
+                  <img
+                    class="item-work__image"
+                    src="/img/home/image main.webp"
+                    alt="author"
+                  />
+                  <figcaption class="item-work__caption">New York<br>October 2021</figcaption>
+                </figure>
+                  </a>
+                </article>
+                <article class="latest-work__item item-work">
+                  <a href="#" class="item-work__link">
+                  <h4 class="item-work__title">Week <span>Fashion</span></h4>
+                                  <figure class="item-work__media">
+                  <img
+                    class="item-work__image"
+                    src="/img/latest-work/weekfashion.webp"
+                    alt="author"
+                  />
+                  <figcaption class="item-work__caption">New York<br>October 2021</figcaption>
+                </figure>
+                  </a>
+                </article> 
+              </div>
+              <div class="latest-work__column">
+                <article class="latest-work__item item-work">
+                  <a href="#" class="item-work__link">
+                  <h4 class="item-work__title"><br>Style
+ <span>& Fashion</span></h4>
+                                  <figure class="item-work__media">
+                  <img
+                    class="item-work__image"
+                    src="/img/latest-work/image style&fashion.webp"
+                    alt="author"
+                  />
+                  <figcaption class="item-work__caption">New York<br>October 2021</figcaption>
+                </figure>
+                  </a>
+                </article>
+                <article class="latest-work__item item-work">
+                  <a href="#" class="item-work__link">
+                  <h4 class="item-work__title">One <span>Eye</span></h4>
+                                  <figure class="item-work__media">
+                  <img
+                    class="item-work__image"
+                    src="/img/latest-work/oneyeye.webp"
+                    alt="author"
+                  />
+                  <figcaption class="item-work__caption">New York<br>October 2021</figcaption>
+                </figure>
+                  </a>
+                </article> 
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__exhibitions exhibitions">
+          <div class="exhibitions__container">
+            <div class="Exhibitions__block-header block-header">
+              <div class="block-header__title">Exhibitions <span>‘22</span></div>
+              <a href="" class="block-header__link arrow-link"
+                >View All
+                <svg
+                  width="32"
+                  height="15"
+                  viewBox="0 0 32 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M0 7.35352H30" />
+                  <path d="M23.5 0.353516L30.5 7.35352L23.5 14.3535" /></svg></a>
+            </div>
+            <ul class="exhibitions__list">
+              <li class="exhibitions__item item-exhibition">
+                <a href="#" class="item-exhibition__picture">
+                  <img
+                    class="item-exhibition__image"
+                    src="/img/exhibitions/exhibition1.webp"
+                    alt="exhibition"
+                  />
+                </a>
+                  <div class="item-exhibition__body">
+                    <div class="item-exhibition__content">
+                      <div class="item-exhibition__place"> 
+                      <span>New York</span>
+                      <span>Town Hall</span>
+                     <span>2022</span>
+                    </div>
+                      <h4 class="item-exhibition__title">
+                      <a href="#" class="item-exhibition__link-title">Independent <span>Beauty</span></a>
+                      </h4>
+                    <div class="item-exhibition__text">
+                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    </div>
+                  </div>             
+                 <a href="#" class="item-exhibition__buy arrow-link arrow-link--dark">Buy Ticket
+            <svg
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M4.94971 15.9099L15.5563 5.30326" />
+              <path d="M6.01025 4.9499H15.9097V14.8494" />
+            </svg>
+          </a>
+                  </div>
+          <div class="item-exhibitions__date">
+            <small>Jun</small>16
+          </div>
+              </li>
+              <li class="exhibitions__item item-exhibition">
+                <a href="#" class="item-exhibition__picture">
+                  <img
+                    class="item-exhibition__image"
+                    src="/img/exhibitions/exhibition2.webp"
+                    alt="exhibition2"
+                  />
+                </a>
+                  <div class="item-exhibition__body">
+                    <div class="item-exhibition__content">
+                      <div class="item-exhibition__place"> 
+                      <span>Berlin</span>
+                      <span>Kunsthalle</span>
+                      <span>2022</span>
+                    </div>
+                      <h4 class="item-exhibition__title">
+                      <a href="#" class="item-exhibition__link-title">In Humanity  We <span>Trust</span></a>
+                      </h4>
+                    <div class="item-exhibition__text">
+                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium reiciendis minima eum ut eos, veniam fugit, itaque harum architecto id perferendis error commodi delectus omnis voluptate ea officia. Deserunt, dignissimos.</p>
+                    </div>
+                  </div>             
+                 <a href="#" class="item-exhibition__buy arrow-link arrow-link--dark">Buy Ticket
+            <svg
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M4.94971 15.9099L15.5563 5.30326" />
+              <path d="M6.01025 4.9499H15.9097V14.8494" />
+            </svg>
+          </a>
+                  </div>
+          <div class="item-exhibitions__date">
+            <small>Mar</small>02
+          </div>
+              </li>
+              <li class="exhibitions__item item-exhibition">
+                <a href="#" class="item-exhibition__picture">
+                  <img
+                    class="item-exhibition__image"
+                    src="/img/exhibitions/exhibition3.webp"
+                    alt="exhibition3"
+                  />
+                </a>
+                  <div class="item-exhibition__body">
+                    <div class="item-exhibition__content">
+                      <div class="item-exhibition__place"> 
+                      <span>Berlin</span>
+                      <span>Kunsthalle</span>
+                      <span>2022</span>
+                    </div>
+                      <h4 class="item-exhibition__title">
+                      <a href="#" class="item-exhibition__link-title">Berlin AT <span>Night</span></a>
+                      </h4>
+                    <div class="item-exhibition__text">
+                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                    </div>
+                  </div>             
+                 <a href="#" class="item-exhibition__buy arrow-link arrow-link--dark">Buy Ticket
+            <svg
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M4.94971 15.9099L15.5563 5.30326" />
+              <path d="M6.01025 4.9499H15.9097V14.8494" />
+            </svg>
+          </a>
+                  </div>
+          <div class="item-exhibitions__date">
+            <small>Mar</small>02
+          </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="page__reviews reviews reviews--nomargin">
+          <div class="reviews__container">
+            <div class="reviews__content">
+              <h2 class="reviews__title">What my <br> Clients <span>Say</span></h2>
+              <div class="reviews__sub-title">
+                Worked with Over <span>50 clients <br></span>around the world
+              </div>
+              <a href="#" class="reviews__button button">
+            Work With Me
+            <svg
+              width="32"
+              height="15"
+              viewBox="0 0 32 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 7.35352H30" />
+              <path d="M23.5 0.353516L30.5 7.35352L23.5 14.3535" />
+            </svg>
+          </a>
+            </div>
+            <div class="reviews__items">
+              <article class="reviews__item item__reviews">
+                <figure href="#" class="item-reviews__picture">
+                  <img
+                    class="item-reviews__avatar"
+                    src="/img/reviews/review1.webp"
+                    alt="review1"
+                  />
+                </figure>
+                <blockquote class="item-reviews__body">
+                  <h4 class="item-reviews__title">I Really Enjoyed Working<br>With Jacob</h4>
+                  <div class="item-reviews__text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p> 
+                    <p>
+                      Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Laoreet sit amet cursus sit amet dictum sit amet justo.
+                    </p>
+                  </div>    
+                      <cite class="item-reviews__author">
+                        <span>Michelle Lindstrøm</span> 
+                        <span>Photoshoot</span>
+                      </cite>
+                </blockquote>
+              </article>
+              <article class="reviews__item item__reviews">
+                <figure href="#" class="item-reviews__picture">
+                  <img
+                    class="item-reviews__avatar"
+                    src="/img/reviews/review2.webp"
+                    alt="review2"
+                  />
+                </figure>
+                <blockquote class="item-reviews__body">
+                  <h4 class="item-reviews__title">I Really Enjoyed Working<br>With Jacob</h4>
+                  <div class="item-reviews__text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p> 
+                  </div>    
+                      <cite class="item-reviews__author">
+                        <span>Jannis Jackson</span> 
+                        <span>Art Direction</span>
+                      </cite>
+                </blockquote>
+              </article>
+              <article class="reviews__item item__reviews">
+                <figure href="#" class="item-reviews__picture">
+                  <img
+                    class="item-reviews__avatar"
+                    src="/img/reviews/review3.webp"
+                    alt="review3"
+                  />
+                </figure>
+                <blockquote class="item-reviews__body">
+                  <h4 class="item-reviews__title">I Really Enjoyed Working<br>With Jacob</h4>
+                  <div class="item-reviews__text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.
+                    </p> 
+                  </div>    
+                      <cite class="item-reviews__author">
+                        <span>Daniela Berg</span> 
+                        <span>Video Editing</span>
+                      </cite>
+                </blockquote>
+              </article>                            
+            </div>
+          </div>
+        </section>
+        <section class="page__lets-work lets-work--nomargin">
+          <div class="lets-work__container">
+            <div class="lets-work__content">
+              <a href="#" class="lets-work__link">Get in <br>Touch</a>
+              <h2 class="lets-work__title">Let's Work <br> <span>Together</span></h2>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__body">
+            <div class="footer__content">
+             <div class="footer__title">Jacob <br>Grønberg</div>
+              <div class="footer__sub-title">Photograph & Visual Artist</div>
+            </div>
+              <div class="footer-menu menu-footer">
+                <div class="menu-footer__title">Menu</div>
+                <ul class="menu-footer__list">
+                   <li class="menu-footer__item"><a href="#" class="menu-footer__link">Home</a></li>
+                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Projects</a></li>
+                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Exhibitions</a></li>
+                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">About</a></li>
+                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Contact</a></li>
+                </ul>              
+              </div>
+              <div class="footer-menu menu-footer">
+                <div class="menu-footer__title">Info</div>
+                <ul class="menu-footer__list">
+                   <li class="menu-footer__item"><a href="#" class="menu-footer__link">Styleguide</a></li>
+                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Licensing</a></li>
+                    <li class="menu-footer__item"><a href="#" class="menu-footer__link">Changelog</a></li>
+                </ul>              
+              </div>                  
+            </div>
+          </div>
+            <ul class="footer__social social">
+              <li class="social__item">
+                <a href="" class="social__link" target="_blank">Twitter</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link" target="_blank">Instagram</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link" target="_blank">Facebook</a>
+              </li>
+            </ul>
+          
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
